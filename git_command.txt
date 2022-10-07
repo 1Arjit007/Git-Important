@@ -1,4 +1,6 @@
 1.git status
 2.git init
 3.git add --a
-4.
+4. git commit -m "Initial commit"
+5.git log
+6.git add git_command.txt
