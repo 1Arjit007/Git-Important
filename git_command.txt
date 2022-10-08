@@ -17,6 +17,18 @@
 17.git rm file-name ->remove file
 18.git mv old_name new_name ->rename and move
 19.git rm --cached file-name -> used for removing from tracking
-20.
+20.git log -p
+21.git log -p -3
+22.git log --stat
+23.git log --pretty=oneline
+24.git log --pretty=short
+25.git log --pretty=full
+26.git log --since=2.days
+27.git log --since=2.week
+28.git log --since=2.month
+29.git log --since=2.year
+30.git log --pretty=format:"%h -- %an"
+31.git commit --amend
+32. :wq
  
 
