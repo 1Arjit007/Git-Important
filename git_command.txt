@@ -4,3 +4,11 @@
 4. git commit -m "Initial commit"
 5.git log
 6.git add git_command.txt
+7.git commit -m "file updated"
+8.rm -rf .git
+9.git clone url 
+10.pwd 
+11.ls
+12.cd
+13.touch error.log
+14.touch .gitignore
