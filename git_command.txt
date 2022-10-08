@@ -7,8 +7,12 @@
 7.git commit -m "file updated"
 8.rm -rf .git
 9.git clone url 
-10.pwd 
+10.pwd ->present working directory
 11.ls
-12.cd
+12.cd ->change directory
 13.touch error.log
 14.touch .gitignore
+15.git diff
+16.git diff --staged
+
+
