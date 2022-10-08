@@ -16,4 +16,6 @@
 16.git diff --staged
 17.git commit -a -m "direct commit"
 18.git rm file-name
+19.git mv old_name new_name
+20.git rm --cached file-name 
 
