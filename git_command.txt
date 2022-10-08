@@ -30,5 +30,7 @@
 30.git log --pretty=format:"%h -- %an"
 31.git commit --amend
 32. :wq
+33.git restore --staged file-name
+34.git checkout -- file-name
  
 
