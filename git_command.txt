@@ -1,21 +1,22 @@
-1.git status
-2.git init
-3.git add --a
-4. git commit -m "Initial commit"
-5.git log
+1.git status ->displays the state of the working directory and the staging area
+2.git init ->to convert an existing, unversioned project to a Git repository or initialize a new, empty repository
+3.git add --a ->adds a change in the working directory to the staging area
+4. git commit -m "Initial commit" -> to take all of the changes that have been made locally and push them up to a remote repository
+5.git log ->  shows a list of all the commits made to a repository
 6.git add git_command.txt
-7.git commit -m "file updated"
-8.rm -rf .git
-9.git clone url 
-10.pwd ->present working directory
-11.ls
-12.cd ->change directory
-13.touch error.log
-14.touch .gitignore
-15.git diff
-16.git diff --staged
-17.git commit -a -m "direct commit"
-18.git rm file-name
-19.git mv old_name new_name
-20.git rm --cached file-name 
+7.rm -rf .git ->The rm command is used to delete a file or a folder from the local machine. The -rf option is used to recursively and forcefully delete the . git folder.
+8.git clone url ->used to point to an existing repo and make a clone or copy of that repo at in a new directory, at another location
+9.pwd ->present working directory
+10.ls-> list information about files and directories within the file system
+11.cd ->change directory
+12.touch error.log
+13.touch .gitignore
+14.git diff ->track the difference between the changes made on a file
+15.git diff --staged -> To check the already staged changes
+16.git commit -a -m "direct commit"
+17.git rm file-name ->remove file
+18.git mv old_name new_name ->rename and move
+19.git rm --cached file-name -> used for removing from tracking
+20.
+ 
 
