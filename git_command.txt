@@ -15,5 +15,5 @@
 15.git diff
 16.git diff --staged
 17.git commit -a -m "direct commit"
-18.git rm new.txt
+18.git rm file-name
 
