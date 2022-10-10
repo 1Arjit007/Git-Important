@@ -37,5 +37,8 @@
 37.git remote add origin URL
 38.git branch -M main
 39.git push -u origin main
- 
-
+40.git remote -v
+41.ssh-keygen -t ed25519 -C "your_email@example.com"
+42.eval "$(ssh-agent -s)"
+43.ssh-add ~/.ssh/id_ed25519
+44.tail ~/.ssh/id_ed25519.pub
