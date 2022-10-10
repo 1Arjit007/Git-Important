@@ -32,5 +32,6 @@
 32. :wq
 33.git restore --staged file-name
 34.git checkout -- file-name
+35.git checkout -f
  
 
