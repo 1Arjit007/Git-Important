@@ -33,5 +33,9 @@
 33.git restore --staged file-name
 34.git checkout -- file-name
 35.git checkout -f
+36.git remote
+37.git remote add origin URL
+38.git branch -M main
+39.git push -u origin main
  
 
