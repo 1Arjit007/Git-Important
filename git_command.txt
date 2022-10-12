@@ -43,4 +43,5 @@
 43.ssh-add ~/.ssh/id_ed25519
 44.tail ~/.ssh/id_ed25519.pub
 45.git config --global alias.st status
-46.
+46.git checkout -b develop
+47.git checkout main
