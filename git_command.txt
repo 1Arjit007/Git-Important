@@ -1,47 +1,48 @@
-1.git status ->displays the state of the working directory and the staging area
-2.git init ->to convert an existing, unversioned project to a Git repository or initialize a new, empty repository
-3.git add --a ->adds a change in the working directory to the staging area
-4. git commit -m "Initial commit" -> to take all of the changes that have been made locally and push them up to a remote repository
-5.git log ->  shows a list of all the commits made to a repository
-6.git add git_command.txt
-7.rm -rf .git ->The rm command is used to delete a file or a folder from the local machine. The -rf option is used to recursively and forcefully delete the . git folder.
-8.git clone url ->used to point to an existing repo and make a clone or copy of that repo at in a new directory, at another location
-9.pwd ->present working directory
-10.ls-> list information about files and directories within the file system
-11.cd ->change directory
-12.touch error.log
-13.touch .gitignore
-14.git diff ->track the difference between the changes made on a file
-15.git diff --staged -> To check the already staged changes
-16.git commit -a -m "direct commit"
-17.git rm file-name ->remove file
-18.git mv old_name new_name ->rename and move
-19.git rm --cached file-name -> used for removing from tracking
-20.git log -p
-21.git log -p -3
-22.git log --stat
-23.git log --pretty=oneline
-24.git log --pretty=short
-25.git log --pretty=full
-26.git log --since=2.days
-27.git log --since=2.week
-28.git log --since=2.month
-29.git log --since=2.year
-30.git log --pretty=format:"%h -- %an"
-31.git commit --amend
-32. :wq
-33.git restore --staged file-name
-34.git checkout -- file-name
-35.git checkout -f
-36.git remote
-37.git remote add origin URL
-38.git branch -M main
-39.git push -u origin main
-40.git remote -v
-41.ssh-keygen -t ed25519 -C "your_email@example.com"
-42.eval "$(ssh-agent -s)"
-43.ssh-add ~/.ssh/id_ed25519
-44.tail ~/.ssh/id_ed25519.pub
-45.git config --global alias.st status
-46.git checkout -b develop
-47.git checkout main
+git status ->displays the state of the working directory and the staging area
+git init ->to convert an existing, unversioned project to a Git repository or initialize a new, empty repository
+git add --a ->adds a change in the working directory to the staging area
+git commit -m "Initial commit" -> to take all of the changes that have been made locally and push them up to a remote repository
+git log ->  shows a list of all the commits made to a repository
+git add git_command.txt
+rm -rf .git ->The rm command is used to delete a file or a folder from the local machine. The -rf option is used to recursively and forcefully delete the . git folder.
+git clone url ->used to point to an existing repo and make a clone or copy of that repo at in a new directory, at another location
+pwd ->present working directory
+ls-> list information about files and directories within the file system
+cd ->change directory
+touch error.log
+touch .gitignore
+git diff ->track the difference between the changes made on a file
+git diff --staged -> To check the already staged changes
+git commit -a -m "direct commit"
+git rm file-name ->remove file
+git mv old_name new_name ->rename and move
+git rm --cached file-name -> used for removing from tracking
+git log -p
+git log -p -3
+git log --stat
+git log --pretty=oneline
+git log --pretty=short
+git log --pretty=full
+git log --since=2.days
+git log --since=2.week
+git log --since=2.month
+git log --since=2.year
+git log --pretty=format:"%h -- %an"
+git commit --amend
+:wq
+git restore --staged file-name
+git checkout -- file-name
+git checkout -f
+git remote
+git remote add origin URL
+git branch -M main
+git push -u origin main
+git remote -v
+ssh-keygen -t ed25519 -C "your_email@example.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+tail ~/.ssh/id_ed25519.pub
+git config --global alias.st status
+git checkout -b develop
+git checkout main
+git branch
