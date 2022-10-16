@@ -47,3 +47,14 @@ git checkout -b develop
 git checkout main
 git branch
 git merge develop
+git branch -v
+git branch --merged
+git branch --no-merged
+git branch -d develop //deleting branches ->gives error if developed not merged
+git branch -D develop //show no error
+git commit
+//for pushing branches
+git checkout develop
+git push origin develop
+//deleting branch from origin
+git push -d origin develop
